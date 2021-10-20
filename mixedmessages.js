@@ -21,9 +21,6 @@ const mixedMessages = {
             return finalMessage.push(element[messages[indexNumber]]);
           });
           return finalMessage.join('');
-   },
-   set messageArray1(phrase){
-       mixedMessages._messageArrays[0].push(phrase)
    }
 }   
 
