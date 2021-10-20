@@ -1,6 +1,6 @@
 **Version 2**
-
-This program is a random sentence generator. 
+=============
+>this program is a random sentence generator.
 
 As i'm still learning, functionality is limited. 
 
