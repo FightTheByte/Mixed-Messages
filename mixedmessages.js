@@ -13,7 +13,7 @@ const mixedMessages = {
    get messageArrays(){ 
           return this._messageArrays;
    },
-   get finalResult(){ //Using the random number array, it pushes each corresponding sentence slice, to and array, using .join('') to form a cohesive sentence
+   get finalResult(){ //Using the random number array, it pushes each corresponding sentence slice, to an array, using .join('') to form a cohesive sentence
           const finalMessage = [];
           const messages = this.messageRandomization;
           this.messageArrays.forEach(element=>{
